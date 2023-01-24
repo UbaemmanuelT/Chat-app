@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d8dfe6;
+}
+.container{
+    width: 1440px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+}
+.aside-colour{
+    height: 90vh;
+    width: 350px;
+    background-color: #4388d8;
+    border-radius: 0 0 190px 160px;
+    position: relative;
+}
+.hero-container{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.aside{
+    align-self: center;
+    width: 30%;
+    position: absolute;
+    left: 800px;
+    line-height: 2;
+}
+.aside h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #002B5B;
+}
+.aside p{
+    color: grey;
+}
+/****Phone container starts here**/
+.phone-container{
+    width: 300px;
+    height: 78vh;
+    margin-left: 40px;
+    margin-top: 70px;
+    border-radius: 20px;
+    border: 10px solid white;
+    position: absolute;
+    left: 250px;
+    overflow: hidden;
+    background-color: rgb(239, 234, 234);
+}
+.phone-header img{
+    width: 40%;
+    border-radius: 50%;
+    justify-content: flex-start;
+}
+.phone-header h1{
+    font-size: 1rem;
+    width: 250%;
+    color: white;
+    align-self: center;
+    font-weight: 100;
+}
+.phone-header{
+    display: flex;
+    background-color: #4388d8;
+    padding: 10px;
+}
+.phone-header i{
+    color: white;
+    margin-right: 10px;
+}
+.phone-header #more{
+    color: white;
+    align-self: center;
+}
+.phone-header .bar{
+    display: flex;
+    align-items: center;
+}
+/****Phone container starts here**/
+
+/****chats starts here**/
+.chat{
+    padding: 10px 5px;
+    font-size: 0.7rem;
+    color: rgb(75, 72, 72);
+    display: flex;
+    flex-direction: column;
+}
+.chat1{
+    padding: 8px;
+    background-color: #d8dfe6;
+    width: 65%;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+.dog-img{
+    width: 30%;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+.dog-img img{
+    border-radius: 10px;
+    width: 75%;
+    margin-right: 10px;
+    display: flex;
+}
+.chat2{
+    padding: 10px 5px;
+    background-color: #d8dfe6;
+    width: 65%;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    margin-left: 85px;
+}
+.chat3{
+    padding: 10px 5px;
+    background-color: #d8dfe6;
+    width: 40%;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+.price{
+    width: 70%;
+    background-color: #d8dfe6;
+    padding: 10px 5px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+.price span{
+    margin-left: 20px;
+}
+.chatarea{
+    width: 100%;
+    height: 6vh;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 5px;
+    position: relative;
+}
+.chatarea i{
+    background-color: #4388d8;
+    color: white;
+    width: 10%;
+    padding: 10px;
+    border-radius: 45%;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+/****chats starts here**/
